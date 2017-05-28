@@ -1,4 +1,5 @@
 node_modules
+bower_components
 jshintrc
-public/css
-public/js
+public
+src/sass/materialize-sass

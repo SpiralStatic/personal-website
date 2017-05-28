@@ -1,0 +1,21 @@
+{
+  "name": "personal_website",
+  "description": "Personal Website",
+  "main": "index.js",
+  "authors": [
+    "CJT"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/SpiralStatic/personal_website",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "materialize": "^0.98.2"
+  }
+}
