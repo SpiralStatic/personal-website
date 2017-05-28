@@ -1,15 +1,17 @@
 /*** Colors ***/
-$primary-color: color("red", "accent-4");
+$primary-color: color("grey", "darken-4");
 $primary-color-light: lighten($primary-color, 15%);
 $primary-color-dark: darken($primary-color, 15%);
 
-$secondary-color: color("teal", "lighten-1");
+$secondary-color: color("deep-orange", "darken-2");
 $success-color: color("green", "base");
 $error-color: color("red", "base");
 $link-color: color("light-blue", "darken-1");
 
 /*** Fonts ***/
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Raleway'); // Main Site Font
+@import url('https://fonts.googleapis.com/css?family=Comfortaa'); // FIFO Font
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Lato'); // Space Age Font
 
 html, body {
   overflow-x: hidden;
@@ -17,4 +19,12 @@ html, body {
 
 body {
   font-family: 'Raleway', sans-serif;
+}
+
+.btn-large {
+  background-color: $secondary-color;
+}
+
+.btn-large-setwidth {
+  width: 14rem;
 }

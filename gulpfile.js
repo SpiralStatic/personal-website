@@ -19,7 +19,7 @@ gulp.task('add-roboto', function() {
 
 // Compile and concatanate SASS
 gulp.task('build-sass', function() {
-  return gulp.src('src/sass/main.scss')
+  return gulp.src('src/sass/imports.scss')
     .pipe(sass({
       style: 'compressed'
     }).on('error', sass.logError))
@@ -52,3 +52,5 @@ gulp.task('concat-js', function() {
 gulp.task('default', ['build-materialize', 'add-roboto', 'build-sass', 'build-bower', 'concat-js']);
 
 gulp.task('buildjs', ['concat-js']);
+
+gulp.task('buildsass', ['build-sass']);
