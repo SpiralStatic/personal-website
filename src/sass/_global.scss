@@ -4,6 +4,8 @@ $primary-color-light: lighten($primary-color, 15%);
 $primary-color-dark: darken($primary-color, 15%);
 
 $secondary-color: color("deep-orange", "darken-2");
+$tertiary-color: color("deep-orange", "darken-2");
+
 $success-color: color("green", "base");
 $error-color: color("red", "base");
 $link-color: color("light-blue", "darken-1");
@@ -21,8 +23,17 @@ body {
   font-family: 'Raleway', sans-serif;
 }
 
+// Large Buttons
 .btn-large {
   background-color: $secondary-color;
+}
+
+.btn-large:hover {
+  background-color: $primary-color;
+}
+
+.btn-large:active {
+  background-color: $primary-color;
 }
 
 .btn-large-setwidth {
