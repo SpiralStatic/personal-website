@@ -8,6 +8,11 @@ nav {
   }
 
   ul {
+    li:hover {
+      background-color: white !important;
+      box-shadow: inset 0px -3px $secondary-color;
+    }
+
     li.active {
       background-color: $secondary-color;
     }

@@ -6,6 +6,26 @@ main {
     width: 100%;
   }
 
+  .app-banner {
+    -webkit-filter: grayscale(25%) saturate(75%);
+    filter: grayscale(25%) saturate(75%);
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
+  }
+
+  .app-banner:hover {
+    -webkit-filter: grayscale(0%) saturate(100%);
+    filter: grayscale(0%) saturate(100%);
+    -webkit-transition: 1s ease;
+    transition: 1s ease;
+  }
+
+
+  // App Titles
+  .app-title {
+    color: $primary-color;
+  }
+
   .fifo-title {
     font-family: 'Comfortaa', cursive;
   }
