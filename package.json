@@ -4,15 +4,15 @@
   "description": "Personal Website",
   "main": "index.js",
   "dependencies": {
-    "express": "^4.15.3",
-    "helmet": "^3.6.1"
+    "express": "^4.16.4",
+    "helmet": "^3.15.1"
   },
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-clean-css": "^3.0.3",
+    "gulp-clean-css": "^3.10.0",
     "gulp-concat": "^2.6.1",
-    "gulp-main-bower-files": "^1.6.1",
-    "gulp-sass": "^3.1.0",
+    "gulp-main-bower-files": "^1.7.0",
+    "gulp-sass": "^3.2.1",
     "gulp-uglify": "^2.1.0"
   },
   "scripts": {

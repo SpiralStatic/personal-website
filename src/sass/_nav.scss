@@ -18,3 +18,38 @@ nav {
     }
   }
 }
+
+.social-nav {
+  width: 6rem;
+  height: 33vh;
+  top: 33vh;
+
+  padding: 1.5vh 0;
+
+  li {
+    height: 5vh;
+
+    a {
+      height: 5vh;
+
+      .mdi {
+          height: 5vh;
+          line-height: 5vh;
+      }
+
+      .mdi.alt-social {
+        color: $secondary-color;
+      }
+
+      .mdi:hover {
+        color: $secondary-color;
+      }
+    }
+  }
+}
+
+@media #{$medium-and-up} {
+    .side-nav.social-nav {
+      transform: none;
+    }
+ }

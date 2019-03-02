@@ -1,0 +1,17 @@
+footer.page-footer {
+  background-color: $primary-color;
+  background-image: url('../images/pinstriped_suit.png');
+  border-top: 3px solid $secondary-color;
+
+  .footer-copyright {
+    background-color: $primary-color;
+
+    a {
+      color: white;
+    }
+
+    a:hover {
+      color: $secondary-color;
+    }
+  }
+}

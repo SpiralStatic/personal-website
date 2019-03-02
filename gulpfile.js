@@ -17,6 +17,18 @@ gulp.task('add-roboto', function() {
     .pipe(gulp.dest('public/fonts/roboto'));
 });
 
+// Build mdi icons
+gulp.task('build-mdi', function() {
+  return gulp.src('bower_components/mdi/scss/*')
+    .pipe(gulp.dest('src/sass/mdi-icons'));
+});
+
+// Include mdi font
+gulp.task('add-mdi-font', function() {
+  return gulp.src('bower_components/mdi/fonts/*')
+    .pipe(gulp.dest('public/fonts'));
+});
+
 // Compile and concatanate SASS
 gulp.task('build-sass', function() {
   return gulp.src('src/sass/imports.scss')
@@ -49,7 +61,7 @@ gulp.task('concat-js', function() {
     .pipe(gulp.dest('public/js/'));
 });
 
-gulp.task('default', ['build-materialize', 'add-roboto', 'build-sass', 'build-bower', 'concat-js']);
+gulp.task('default', ['build-materialize', 'add-roboto', 'build-mdi', 'add-mdi-font' ,'build-sass', 'build-bower', 'concat-js']);
 
 gulp.task('buildjs', ['concat-js']);
 
