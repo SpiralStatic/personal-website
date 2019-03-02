@@ -1,5 +1,5 @@
 {
-  "name": "personal_website",
+  "name": "personal-website",
   "version": "1.0.0",
   "description": "Personal Website",
   "main": "index.js",
@@ -20,12 +20,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/SpiralStatic/personal_website.git"
+    "url": "git+https://github.com/SpiralStatic/personal-website.git"
   },
   "author": "CJT",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/SpiralStatic/personal_website/issues"
+    "url": "https://github.com/SpiralStatic/personal-website/issues"
   },
-  "homepage": "https://github.com/SpiralStatic/personal_website#readme"
+  "homepage": "https://github.com/SpiralStatic/personal-website#readme"
 }
